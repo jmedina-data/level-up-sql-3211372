@@ -4,3 +4,5 @@
 SELECT FirstName, LastName, Email
 FROM Customers
 ORDER BY LAstName;
+
+-- this is a test commit.
