@@ -1,8 +1,6 @@
--- This file is intended for notes
--- and for demonstrating how to work
--- with SQLite in Codespaces.
+-- get customers first name, last name, email for invites
+-- sort alphbetically by last name
 
--- These two statements operate on the 
--- restaurant.db SQLite database.
-SELECT * FROM Dishes;
-SELECT * FROM Customers;
+SELECT FirstName, LastName, Email
+FROM Customers
+ORDER BY LAstName;
